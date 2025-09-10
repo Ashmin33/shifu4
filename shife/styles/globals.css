@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+.collage {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.collage img {
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.playBtn {
+  background: pink;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 20px;
+  transition: 0.3s;
+}
+
+.playBtn:hover {
+  background: hotpink;
+  color: white;
+}
+
+.message {
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: white;
+}
